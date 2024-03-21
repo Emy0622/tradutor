@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    display: flex;
+}
+
+.elemento{
+    width: 200px;
+    height: 100vh;
+    background-color: #810000;
+ 
+   
+}
+.conteudo{
+    width: 200vh;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+h1{
+    font-size: 120px;
+    color:  #810000;;
+}
+
+.conteudo .input-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    width: 920px;
+}
+input{
+    border: none;
+    font-size: 56px;
+    background-color: transparent;
+}
+.input-caixa{
+    padding-bottom: 6px;
+    border-bottom: 4px solid rgb(177, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.dia-noite img{
+    max-width:150px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+
+.input-caixa img{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+p{
+    font-size: 40px;
+    color: #810000;
+}
